@@ -1,0 +1,23 @@
+{
+  "latitude": 49.208,
+  "longitude": 10.628,
+  "start_date": "2023-10-03",
+  "end_date": "2024-07-30",
+  
+  "# temporal_resolution options: 'hourly', 'daily', or 'monthly'": "",
+  "temporal_resolution": "daily",
+  
+  "output_file": "weather_data.csv",
+  
+  "# variable_groups options: true/false for each group": "",
+  "variable_groups": {
+    "# basic_weather (15 variables): Temperature, humidity, precipitation, wind, pressure, cloud cover": "",
+    "basic_weather": true,
+    
+    "# solar_radiation (3 variables): Shortwave, direct, and diffuse solar radiation": "",
+    "solar_radiation": false,
+    
+    "# soil (3 variables): Soil temperature and moisture at different depths": "",
+    "soil": false
+  }
+}
